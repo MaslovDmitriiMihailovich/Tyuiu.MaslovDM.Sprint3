@@ -1,7 +1,4 @@
-﻿using System;
-using tyuiu.cources.programming.interfaces.Sprint3;
-
-namespace Tyuiu.MaslovDM.Sprint3.Task2.V16.Lib
+﻿namespace Tyuiu.MaslovDM.Sprint3.Task2.V16.Lib
 {
     public class DataService : ISprint3Task2V16
     {
@@ -19,9 +16,5 @@ namespace Tyuiu.MaslovDM.Sprint3.Task2.V16.Lib
 
             return Math.Round(p, 3);
         }
-    }
-
-    public interface ISprint3Task2V16
-    {
     }
 }
