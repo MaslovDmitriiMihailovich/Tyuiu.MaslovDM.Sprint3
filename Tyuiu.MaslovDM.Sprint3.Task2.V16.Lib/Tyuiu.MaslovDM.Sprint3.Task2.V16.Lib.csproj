@@ -7,8 +7,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Reference Include="tyuiu.cources.programming.interfaces.dll">
+		<Reference Include="tyuiu.cources.programming.interfaces">
 			<HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
+			<Private>True</Private>
 		</Reference>
 	</ItemGroup>
 

@@ -3,20 +3,21 @@ using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.MaslovDM.Sprint3.Task1.V14.Lib
 {
-    public class DataService : ISprint3Task1V14
+    public class DataService : ISprint3Task2V16
     {
-        public double GetSumSeries(double value, int startValue, int stopValue)
+        public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double sum = 0;
+            double p = 1;
             int k = startValue;
 
-            while (k <= stopValue)
+            do
             {
-                sum += (Math.Pow(value, k) + 1.0 / (k + 1)) * Math.Cos(value);
+                p *= Math.Pow(1.0 / Math.Pow(k, value), -1);
                 k++;
             }
+            while (k <= stopValue);
 
-            return Math.Round(sum, 3);
+            return Math.Round(p, 3);
         }
     }
 }

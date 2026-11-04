@@ -7,8 +7,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.MaslovDM.Sprint3.Task2.V16.Lib\Tyuiu.MaslovDM.Sprint3.Task2.V16.Lib.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Tyuiu.MaslovDM.Sprint3.Task2.V16.Lib\Tyuiu.MaslovDM.Sprint3.Task2.V16.Lib.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="tyuiu.cources.programming.interfaces">
+			<HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+	</ItemGroup>
 
 </Project>
